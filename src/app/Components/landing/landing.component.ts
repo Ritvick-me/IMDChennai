@@ -24,8 +24,8 @@ export class LandingComponent implements OnInit {
 
   kolkatas = [
     { 
-      heading: "Forecast For Kolkata & neighbourhood <> 14-09-2019 evening",
-      description: "Partly cloudy sky. Rain or thundershower likely in some area. Maximum and minimum temperature most likely to be around 34 °C and 27 °C respectively.",
+      heading: "Forecast For Chennai & neighbourhood <> 14-09-2019 evening",
+      description: "Partly cloudy sky. Rasin or thundershower likely in some area. Maximum and minimum temperature most likely to be around 34 °C and 27 °C respectively.",
       max: "33.9",
       min: "27.0",
       RHmax: "94",
@@ -37,7 +37,7 @@ export class LandingComponent implements OnInit {
 
   cities = [
     {
-      city: "Kolkata",
+      city: "Chennai",
       date: "14-09-2019 17:30 IST",
       location: "Lat: 22°31' N / Lon: 88°19' E / Altitude: 6.0 m",
       weather: "Partly Cloudy",
@@ -76,7 +76,7 @@ export class LandingComponent implements OnInit {
       MSL: "1001.9 hPa"
     },
     {
-      city: "Patna",
+      city: "Coimbatore",
       date: "14-09-2019 17:30 IST",
       location: "Lat: 22°31' N / Lon: 88°19' E / Altitude: 6.0 m",
       weather: "Partly Cloudy",
@@ -89,7 +89,7 @@ export class LandingComponent implements OnInit {
       MSL: "1001.9 hPa"
     },
     {
-      city: "Gangtok",
+      city: "Pondicherry",
       date: "14-09-2019 20:30 IST",
       location: "Lat: 20°15' N / Lon: 85°49' E / Altitude: 45.0 m",
       weather: "Partly Cloudy",
