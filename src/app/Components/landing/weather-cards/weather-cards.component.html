@@ -1,0 +1,25 @@
+<div class="card weather-card-des">
+  <h5 class="card-title text-center card-head">{{weathers.head}}</h5>
+  <img src="{{weathers.image}}" class="card-img-top card-img" alt="{{weathers.head}}">
+  <div class="card-body">
+    <button class="btn button-des" id="modBut{{weathers.x}}" data-toggle="modal">View</button>
+    <div class="modal fade bd-example-modal-xl" id="moldal{{weathers.x}}" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-xl text-center" style="border-style: none;" role="document">
+        <div class="modal-content" style="background-color: black;">
+          <div class="modal-header headOfModal">
+            <h5 class="modal-title" id="exampleModalCenterTitle">{{weathers.head}}</h5>
+            <button type="button" class="close butClose{{weathers.x}}" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img class="image-modal" src="{{weathers.image}}" alt="{{weathers.head}}">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary butClose{{weathers.x}}" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

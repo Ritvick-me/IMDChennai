@@ -1,0 +1,51 @@
+.button-des{
+    background: rgb(54, 58, 65);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition-duration: 0.5s;
+    font-weight: 999;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.button-des:hover{
+    background: white;
+    color: rgb(54, 58, 65);
+    border-color: rgb(54, 58, 65);
+    transition-duration: 0.5s;
+}
+
+.card-head{
+    background-color: rgb(54, 58, 65);
+    margin-bottom: 0px !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+}
+
+.card-img{
+    height: 30vh;
+}
+
+.headOfModal{
+    background-color: #DCDCDC;
+}
+
+.weather-card-des{
+    width: 100%; 
+    min-height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.image-modal{
+    max-width: 100%;
+    max-height: 70vh;
+}
+
+.show{
+    display: block;
+}

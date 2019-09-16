@@ -1,0 +1,63 @@
+<div class="container-fluid">
+  <div class="row kolRow">
+    <div class="col col-12 heading-kolkata">
+      <div class="text-center">
+        <h5 class="openSans">
+          {{kolkatas.heading}}
+        </h5>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col col-11 descrip">
+          <p class="row-des openSans">
+            {{kolkatas.description}}
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-around">
+        <div class="col col-11 col-md-4">
+          <p class="openSans">
+            Max Temperature: <b>{{kolkatas.max}}°C</b>
+          </p>
+        </div>
+        <div class="col col-11 col-md-4">
+          <p class="openSans">
+            Min Temperature: <b>{{kolkatas.min}}°C</b>
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container">
+      <div class="row justify-content-around">
+        <div class="col col-11 col-md-4">
+          <p class="openSans">
+            RH max: <b>{{kolkatas.RHmax}}%</b>
+          </p>
+        </div>
+        <div class="col col-11 col-md-4">
+          <p class="openSans">
+            RH min: <b>{{kolkatas.RHmin}}%</b>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-around">
+        <div class="col col-11 col-md-4">
+          <p class="openSans">
+            RF last 24 hours: <b>{{kolkatas.RF24}} mm</b>
+          </p>
+        </div>
+        <div class="col col-11 col-md-4">
+          <p class="openSans">
+            RF since 0830 IST: <b>{{kolkatas.RFz}} mm</b>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>        
+</div>
