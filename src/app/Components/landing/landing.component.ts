@@ -7,9 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingComponent implements OnInit {
 
-  maps = [
-    { images: "../../../assets/hello.jpg" },
-  ];
+  lat: number = 12.820510;
+  lng: number = 80.044028;
 
   weathers = [
     { image: "../../../assets/caz_kol.gif", head: "MAX(Z)", x: "s" },

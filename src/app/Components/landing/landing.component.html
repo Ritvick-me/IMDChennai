@@ -1,6 +1,6 @@
-<div *ngFor="let map of maps" class="container-fluid text-center" style="padding: 0px !important;">
-    <img src="{{map.images}}" class="landing-map" alt="google map">
-    <h2 class="cityForecast">City Forecast</h2>
+<div class="container-fluid text-center" style="padding: 0px !important;">
+  <agm-map style="height: 60vh; max-width:100vw;" [latitude]="lat" [longitude]="lng"></agm-map>
+  <h2 class="cityForecast">City Forecast</h2>
 </div>
 
 <div class="container-fluid" style="background-color: #DCDCDC;">

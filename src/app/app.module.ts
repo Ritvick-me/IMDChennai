@@ -8,6 +8,7 @@ import { WeatherCardsComponent } from './Components/landing/weather-cards/weathe
 import { KolkataForecastComponent } from './Components/landing/kolkata-forecast/kolkata-forecast.component';
 import { CityWeathersComponent } from './Components/landing/city-weathers/city-weathers.component';
 import { ClimateCards2Component } from './Components/landing/climate-cards2/climate-cards2.component';
+import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,10 @@ import { ClimateCards2Component } from './Components/landing/climate-cards2/clim
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyD6RE0-laounX4BuNHmk1FwOtBK4QmMhG4'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

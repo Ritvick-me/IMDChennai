@@ -3,10 +3,14 @@ a{
     color: black;
 }
 
+.colGold{
+    color: rgb(184, 165, 61) !important;
+}
+
 .header{
     font-family: 'Open Sans', sans-serif;
     font-weight: 999;
-    color: black;
+    color: white;
 }
 
 .Login-btn{
@@ -54,4 +58,13 @@ a{
 
 .dropdown-redesign{
     font-family: 'Open Sans', sans-serif;
+}
+
+.head-bg{
+    background-image: url('../assets/bg.jpg');
+    margin: 0px !important;
+}
+
+.navBg{
+    background-color: rgb(34, 33, 33) !important;
 }

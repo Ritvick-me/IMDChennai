@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as $ from "jquery";
 
 declare var loGo: any;
 @Component({
@@ -7,10 +8,12 @@ declare var loGo: any;
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  myAlert = function(){
-    alert("Hello!");
-  };
-  onClick(){
-    this.myAlert();
-  };
+  hello = $(function () {
+    $(document).scroll(function () {
+      var $nav = $(".pos-f-t");
+      $nav.toggleClass('fixed-top', $(this).scrollTop() > $nav.height()*1.9);
+    });
+  });
 }
+
+export class AppModule {}
