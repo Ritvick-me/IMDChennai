@@ -4,18 +4,20 @@
 }
 
 .heading-kolkata{
-    background-color: rgb(54, 58, 65);
+    background-color: rgb(13, 125, 230);
+    width: 100%;
     color: white;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     padding-top: 10px;
     padding-bottom: 6px;
+    margin-left: 0px !important;
 }
 
 .kolRow{
     border-style: solid;
     border-width: 2px;
-    border-color: rgb(54, 58, 65);
+    border-color: rgb(13, 125, 230);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }

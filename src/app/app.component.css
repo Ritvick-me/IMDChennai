@@ -18,6 +18,7 @@ a{
     border-width: 2px;
     background-color: White;
     border-color: black;
+    border-width: 1px;
     color: black;
     font-family: 'Open sans', sans-serif;
     margin-top: 5px;
@@ -34,7 +35,7 @@ a{
 }
 
 .Login-btn:hover{
-    background-color: black;
+    background-color: rgb(34, 33, 33);
     border-color: white;
     color: white;
     transition-duration: 0.5s;
@@ -62,9 +63,22 @@ a{
 
 .head-bg{
     background-image: url('../assets/bg.jpg');
+    background-position: -1300px -140px;
     margin: 0px !important;
+}
+
+.menu-bg{
+    background-color: rgb(34, 33, 33);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(184, 165, 61);
+}
+
+.menu-col{
+    color: rgb(184, 165, 61);
 }
 
 .navBg{
     background-color: rgb(34, 33, 33) !important;
+    padding: 0px;
 }

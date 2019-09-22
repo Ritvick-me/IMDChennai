@@ -1,3 +1,10 @@
+.borders{
+    background-color: white;
+    border-color: #dcdcdc;
+    border-style: solid;
+    border-width: 1px;
+}
+
 .cityBorder{
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -6,6 +13,7 @@
 
 .cityBox{
     border-bottom-style: solid;
+    border-color: #dcdcdc;
     border-bottom-width: 1px;
     padding-bottom: 10px;
 }
@@ -13,14 +21,16 @@
 .cityBox2{
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: #dcdcdc;
     padding-bottom: 10px;
-    background-color: #dcdcdc;
+    background-color: white;
     margin: 0px;
 }
 
 .cityBox3{
-    background-color: #dcdcdc;
+    background-color: white;
     margin: 0px;
+    border-color: #dcdcdc;
     padding-bottom: 10px;
 }
 
@@ -35,7 +45,7 @@
 }
 
 .cityHead{
-    color: rgb(54, 58, 65);
+    color: rgb(13, 125, 230);
     margin-top: 10px;
     margin-left:10px;
     margin-bottom: 10px;
@@ -47,9 +57,10 @@
     margin-left: 10px;
 }
 
-.col-head{
-    background-color: #dcdcdc;
-}
+/* .col-head{
+    
+    
+} */
 
 .marginP{
     margin: 0px !important;
