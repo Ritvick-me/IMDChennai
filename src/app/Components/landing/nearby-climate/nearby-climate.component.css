@@ -1,0 +1,36 @@
+.col-des{
+    padding: 0px !important;
+    border-style: solid;
+    border-color: silver;
+    border-width: 1px;
+    padding: 2px !important;
+    padding-left: 5px !important;
+}
+
+.col-des-alt{
+    border-bottom-style: none;
+    border-top-style: none;
+}
+
+.black{
+    color: black;
+    font-weight: 999;
+}
+
+.blue{
+    background-color: rgb(21, 130, 194);
+    color: white;
+    border-color: rgb(21, 130, 194);
+}
+
+.grey{
+    background-color: #dcdcdc;
+}
+
+.row-des{
+    width: 100%;
+}
+
+.content-rotate{
+    transform: rotate(-90deg);
+}

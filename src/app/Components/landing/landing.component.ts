@@ -114,13 +114,74 @@ export class LandingComponent implements OnInit {
       MSL: "1001.9 hPa"
     }
   ]
+
+  places = [
+    {
+      hash: "#",
+      city: "Station",
+      max: "Max (°C)",
+      min: "Min (°C)",
+      rain: "Rain (mm)",
+      bg: "black"
+    },
+    {
+      hash: "",
+      city: "Bhubaneswar",
+      max: "34.2",
+      min: "21.6",
+      rain: "9.7",
+      bg: "grey"
+    },
+    {
+      hash: "",
+      city: "Gangtok",
+      max: "34.2",
+      min: "21.6",
+      rain: "9.7",
+      bg: ""
+    },
+    {
+      hash: "State",
+      city: "Kolkata",
+      max: "34.2",
+      min: "21.6",
+      rain: "9.7",
+      bg: "grey"
+    },
+    {
+      hash: "Cptl",
+      city: "Patna",
+      max: "34.2",
+      min: "21.6",
+      rain: "9.7",
+      bg: ""
+    },
+    {
+      hash: " ",
+      city: "Port Blair",
+      max: "34.2",
+      min: "21.6",
+      rain: "9.7",
+      bg: "grey"
+    },
+    {
+      hash: " ",
+      city: "Ranchi",
+      max: "34.2",
+      min: "21.6",
+      rain: "9.7",
+      bg: ""
+    },
+  ]
   
   myAlert = function(){
     alert("Hello!");
   };
+  
   constructor() { }
 
   ngOnInit() {
+    
     // console.log(this.weathers.image);
   }
 

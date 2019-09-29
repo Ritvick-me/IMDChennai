@@ -1,0 +1,17 @@
+.card-des{
+    width: 100%;
+    border-style: none;
+    margin-bottom: 50px;
+    padding: 0% !important;
+    transition-duration: 0.5s;
+}
+
+.card-des:hover{
+    box-shadow: 0px 0px 100px -40px;
+    transition-duration: 0.5s;
+    z-index: 999;
+}
+
+.card-head{
+    color: rgb(79, 142, 201);
+}

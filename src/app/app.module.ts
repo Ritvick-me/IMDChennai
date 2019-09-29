@@ -9,6 +9,9 @@ import { KolkataForecastComponent } from './Components/landing/kolkata-forecast/
 import { CityWeathersComponent } from './Components/landing/city-weathers/city-weathers.component';
 import { ClimateCards2Component } from './Components/landing/climate-cards2/climate-cards2.component';
 import { AgmCoreModule } from '@agm/core';
+import { CommonNewsComponent } from './Components/common-news/common-news.component';
+import { FooterComponent } from './Components/footer/footer.component';
+import { NearbyClimateComponent } from './Components/landing/nearby-climate/nearby-climate.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { AgmCoreModule } from '@agm/core';
     WeatherCardsComponent,
     KolkataForecastComponent,
     CityWeathersComponent,
-    ClimateCards2Component
+    ClimateCards2Component,
+    CommonNewsComponent,
+    FooterComponent,
+    NearbyClimateComponent
   ],
   imports: [
     BrowserModule,

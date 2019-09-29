@@ -20,6 +20,18 @@
     padding-bottom: 25px;
 }
 
+.col-xl-3{
+    transition-duration: 0.5s;
+}
+
+.col-md-4{
+    transition-duration: 0.5s;
+}
+
+.col-sm-6{
+    transition-duration: 0.5s;
+}
+
 .posi{
     position: static;
     z-index: 999;
@@ -37,3 +49,4 @@
         padding-top: 25px;
     }
 }
+
