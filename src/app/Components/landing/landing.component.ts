@@ -172,6 +172,14 @@ export class LandingComponent implements OnInit {
       rain: "9.7",
       bg: ""
     },
+    {
+      hash: " ",
+      city: "Chennai",
+      max: "34.2",
+      min: "21.6",
+      rain: "9.7",
+      bg: "grey"
+    }
   ]
   
   myAlert = function(){
